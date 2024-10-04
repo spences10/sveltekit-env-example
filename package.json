@@ -16,20 +16,20 @@
 	"devDependencies": {
 		"@playwright/test": "^1.47.2",
 		"@sveltejs/adapter-auto": "^3.2.5",
-		"@sveltejs/kit": "^2.5.28",
-		"@typescript-eslint/eslint-plugin": "^8.7.0",
-		"@typescript-eslint/parser": "^8.7.0",
+		"@sveltejs/kit": "^2.6.1",
+		"@typescript-eslint/eslint-plugin": "^8.8.0",
+		"@typescript-eslint/parser": "^8.8.0",
 		"eslint": "^9.11.1",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"prettier": "^3.3.3",
-		"prettier-plugin-svelte": "^3.2.6",
+		"prettier-plugin-svelte": "^3.2.7",
 		"svelte": "^4.2.19",
-		"svelte-check": "^4.0.2",
+		"svelte-check": "^4.0.4",
 		"tslib": "^2.7.0",
 		"typescript": "^5.6.2",
 		"vite": "^5.4.8",
-		"vitest": "^2.1.1"
+		"vitest": "^2.1.2"
 	},
 	"type": "module"
 }
