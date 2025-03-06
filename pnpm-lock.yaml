@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@playwright/test':
         specifier: ^1.49.1
-        version: 1.49.1
+        version: 1.51.0
       '@sveltejs/adapter-auto':
         specifier: ^3.3.1
         version: 3.3.1(@sveltejs/kit@2.15.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.17.3)(vite@6.0.7))(svelte@5.17.3)(vite@6.0.7))
@@ -435,8 +435,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@playwright/test@1.49.1':
-    resolution: {integrity: sha512-Ky+BVzPz8pL6PQxHqNRW1k3mIyv933LML7HktS8uik0bUXNCdPhoS/kLihiO1tMf/egaJb4IutXd7UywvXEW+g==}
+  '@playwright/test@1.51.0':
+    resolution: {integrity: sha512-dJ0dMbZeHhI+wb77+ljx/FeC8VBP6j/rj9OAojO08JI80wTZy6vRk9KvHKiDCUh4iMpEiseMgqRBIeW+eKX6RA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1078,13 +1078,13 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  playwright-core@1.49.1:
-    resolution: {integrity: sha512-BzmpVcs4kE2CH15rWfzpjzVGhWERJfmnXmniSyKeRZUs9Ws65m+RGIi7mjJK/euCegfn3i7jvqWeWyHe9y3Vgg==}
+  playwright-core@1.51.0:
+    resolution: {integrity: sha512-x47yPE3Zwhlil7wlNU/iktF7t2r/URR3VLbH6EknJd/04Qc/PSJ0EY3CMXipmglLG+zyRxW6HNo2EGbKLHPWMg==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.49.1:
-    resolution: {integrity: sha512-VYL8zLoNTBxVOrJBbDuRgDWa3i+mfQgDTrL8Ah9QXZ7ax4Dsj0MSq5bYgytRnDVVe+njoKnfsYkH3HzqVj5UZA==}
+  playwright@1.51.0:
+    resolution: {integrity: sha512-442pTfGM0xxfCYxuBa/Pu6B2OqxqqaYq39JS8QDMGThUvIOCd6s0ANDog3uwA0cHavVlnTQzGCN7Id2YekDSXA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1317,8 +1317,8 @@ packages:
       yaml:
         optional: true
 
-  vitefu@1.0.4:
-    resolution: {integrity: sha512-y6zEE3PQf6uu/Mt6DTJ9ih+kyJLr4XcSgHR2zUkM8SWDhuixEJxfJ6CZGMHh1Ec3vPLoEA0IHU5oWzVqw8ulow==}
+  vitefu@1.0.6:
+    resolution: {integrity: sha512-+Rex1GlappUyNN6UfwbVZne/9cYC4+R2XDk9xkNXBKMw6HQagdX9PgZ8V2v1WUSK1wfBLp7qbI1+XSNIlB1xmA==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
@@ -1606,9 +1606,9 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@playwright/test@1.49.1':
+  '@playwright/test@1.51.0':
     dependencies:
-      playwright: 1.49.1
+      playwright: 1.51.0
 
   '@polka/url@1.0.0-next.28': {}
 
@@ -1710,7 +1710,7 @@ snapshots:
       magic-string: 0.30.17
       svelte: 5.17.3
       vite: 6.0.7
-      vitefu: 1.0.4(vite@6.0.7)
+      vitefu: 1.0.6(vite@6.0.7)
     transitivePeerDependencies:
       - supports-color
 
@@ -2261,11 +2261,11 @@ snapshots:
 
   picomatch@2.3.1: {}
 
-  playwright-core@1.49.1: {}
+  playwright-core@1.51.0: {}
 
-  playwright@1.49.1:
+  playwright@1.51.0:
     dependencies:
-      playwright-core: 1.49.1
+      playwright-core: 1.51.0
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -2457,7 +2457,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@1.0.4(vite@6.0.7):
+  vitefu@1.0.6(vite@6.0.7):
     optionalDependencies:
       vite: 6.0.7
 
